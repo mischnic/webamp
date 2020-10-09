@@ -7,7 +7,7 @@ import { /* defaultInitialTracks, */ SHOW_DESKTOP_ICONS } from "./config";
 import { useWindowSize } from "../../js/hooks";
 import avaliableSkins from "./avaliableSkins";
 import DesktopLinkIcon from "./DesktopLinkIcon";
-import museumIcon from "../images/icons/internet-folder-32x32.png";
+import museumIcon from "url:../images/icons/internet-folder-32x32.png";
 // import MilkIcon from "./MilkIcon";
 
 interface Props {

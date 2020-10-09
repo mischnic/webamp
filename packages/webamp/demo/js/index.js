@@ -1,5 +1,3 @@
-/* global SENTRY_DSN */
-
 import * as Sentry from "@sentry/browser";
 import React from "react";
 import ReactDOM from "react-dom";
@@ -83,7 +81,7 @@ function filterBreadcrumbActions(action) {
 
 try {
   Sentry.init({
-    dsn: SENTRY_DSN,
+    dsn: process.env.SENTRY_DSN,
     /* global COMMITHASH */
     release: typeof COMMITHASH !== "undefined" ? COMMITHASH : "DEV",
   });

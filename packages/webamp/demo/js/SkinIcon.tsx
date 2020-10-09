@@ -1,7 +1,7 @@
 import WebampLazy from "../../js/webampLazy";
 import React from "react";
 // @ts-ignore
-import iconSmall from "../images/icons/paint-file-32x32.png";
+import iconSmall from "url:../images/icons/paint-file-32x32.png";
 import DesktopIcon from "./DesktopIcon";
 import { log } from "./logger";
 

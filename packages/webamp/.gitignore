@@ -1,6 +1,7 @@
 **/node_modules
 
 /built
+/dist
 /demo/built
 /coverage
 /examples/webpack/bundle.js

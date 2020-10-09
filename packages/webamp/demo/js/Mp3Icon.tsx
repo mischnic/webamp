@@ -1,9 +1,9 @@
 import WebampLazy from "../../js/webampLazy";
 import React, { useCallback } from "react";
 // @ts-ignore
-import iconLarge from "../images/manifest/icon-96x96.png";
+import iconLarge from "url:../images/manifest/icon-96x96.png";
 // @ts-ignore
-import iconSmall from "../images/manifest/icon-48x48.png";
+import iconSmall from "url:../images/manifest/icon-48x48.png";
 import DesktopIcon from "./DesktopIcon";
 import { URLTrack } from "../../js/types";
 

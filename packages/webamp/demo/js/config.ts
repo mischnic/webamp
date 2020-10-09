@@ -1,6 +1,6 @@
 import { Track, AppState, URLTrack } from "../../js/types";
 // @ts-ignore
-import llamaAudio from "../mp3/llama-2.91.mp3";
+import llamaAudio from "url:../mp3/llama-2.91.mp3";
 import { DeepPartial } from "redux";
 
 interface Config {
